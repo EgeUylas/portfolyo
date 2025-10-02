@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "work": "Projects",
+    "blog": "Blog",
+    "gallery": "Gallery"
+  },
+  "home": {
+    "headline": "Modern Web Solutions & Creative Projects",
+    "subline": "I'm Ege Uylaş, Computer Engineer and Freelance Web Developer. I create user-friendly digital experiences with web development, software architecture and modern technologies."
+  },
+  "about": {
+    "title": "About",
+    "intro": {
+      "title": "Introduction",
+      "description": "As a Computer Engineer, I work in the fields of web development and software architecture. As a freelance web developer, I offer modern, user-friendly web solutions to clients. I have developed projects with React and JavaScript, and have experience in object-oriented programming with C# and Python. I am interested in backend development with technologies like Firebase. As a team-oriented and eager-to-learn developer, I continue to improve my technical skills with innovative projects."
+    },
+    "work": {
+      "title": "Work Experience",
+      "freelance": {
+        "company": "Freelance Web Developer",
+        "role": "Full Stack Developer",
+        "timeframe": "2025 - Present",
+        "achievements": [
+          "Successfully delivered more than 10 client projects",
+          "Developing modern web applications with React.js, Next.js and TypeScript",
+          "Backend integrations and API development with Firebase, Node.js",
+          "UI/UX focused, responsive user interface design",
+          "Project management, client communication and technical consulting"
+        ]
+      },
+      "karsan": {
+        "company": "Karsan Automotive",
+        "role": "Full Stack Developer - Intern",
+        "timeframe": "2025",
+        "achievements": [
+          "Full stack web application development",
+          "Frontend and backend integration",
+          "Project development with modern web technologies",
+          "Teamwork and agile methodologies"
+        ]
+      },
+      "eli": {
+        "company": "Ege Lignite Enterprises Directorate (ELİ)",
+        "role": "Software Developer Intern",
+        "timeframe": "2024",
+        "achievements": [
+          "Developing modern web applications using React.js",
+          "Authentication and database management with Firebase",
+          "Responsive and user-friendly interface design",
+          "Functional interface design according to UI/UX principles",
+          "Using Git and GitHub for version control"
+        ]
+      }
+    },
+    "education": {
+      "title": "Education",
+      "university": {
+        "name": "Balıkesir University",
+        "description": "Computer Engineering (2021 - 2025)"
+      },
+      "teknokent": {
+        "name": "Teknokent Pre-Incubation Program",
+        "description": "Entrepreneurship and Innovation Training"
+      }
+    },
+    "technical": {
+      "title": "Technical Skills",
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "I develop modern, high-performance web applications with React.js, Next.js and TypeScript. I have experience in Redux, Context API, Hooks and component-based architecture. I create user-oriented interfaces with responsive design and modern UI/UX principles."
+      },
+      "backend": {
+        "title": "Backend & Database",
+        "description": "I do backend development and API integrations with Node.js, Firebase and SQL databases. I have experience in RESTful API design, authentication systems and database management."
+      },
+      "tools": {
+        "title": "Programming Languages & Tools",
+        "description": "I have software development experience in JavaScript, TypeScript, Python, C# and Java. I have practical knowledge in version control with Git/GitHub, modern development tools and agile methodologies."
+      }
+    },
+    "location": "Balıkesir, Turkey"
+  },
+  "work": {
+    "title": "Projects",
+    "relatedProjects": "Related Projects",
+    "viewProject": "View project",
+    "caseStudy": "Read case study"
+  },
+  "footer": {
+    "buildWith": "Build your portfolio with"
+  }
+}

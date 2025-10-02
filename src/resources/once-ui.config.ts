@@ -14,14 +14,14 @@ import {
 import { home } from "./index";
 
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL: string = "https://demo.magic-portfolio.com";
+const baseURL: string = "https://egeuylas.com";
 
 const routes: RoutesConfig = {
   "/": true,
   "/about": true,
   "/work": true,
-  "/blog": true,
-  "/gallery": true,
+  "/blog": false,
+  "/gallery": false,
 };
 
 const display: DisplayConfig = {
@@ -32,9 +32,7 @@ const display: DisplayConfig = {
 
 // Enable password protection on selected routes
 // Set password in the .env file, refer to .env.example
-const protectedRoutes: ProtectedRoutesConfig = {
-  "/work/automate-design-handovers-with-a-figma-to-code-pipeline": true,
-};
+const protectedRoutes: ProtectedRoutesConfig = {};
 
 // Import and set font for each variant
 import { Geist } from "next/font/google";
@@ -81,7 +79,7 @@ const style: StyleConfig = {
   solidStyle: "flat", // flat | plastic
   border: "playful", // rounded | playful | conservative
   surface: "translucent", // filled | translucent
-  transition: "all", // all | micro | macro
+  transition: "micro", // all | micro | macro
   scaling: "100", // 90 | 95 | 100 | 105 | 110
 };
 
@@ -187,17 +185,17 @@ const mailchimp: MailchimpConfig = {
 // default schema data
 const schema: SchemaConfig = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Person",
+  name: "Ege Uylaş",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "egeuylas19013@gmail.com",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  threads: "",
+  linkedin: "https://www.linkedin.com/in/ege-uylas-682030273",
+  discord: "",
 };
 
 // social sharing configuration for blog posts

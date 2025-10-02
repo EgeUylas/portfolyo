@@ -9,6 +9,7 @@ const withMDX = mdx({
 const nextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
+  reactStrictMode: true,
   images: {
     remotePatterns: [
       {
@@ -21,6 +22,9 @@ const nextConfig = {
   sassOptions: {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
+  },
+  experimental: {
+    optimizeCss: true,
   },
 };
 

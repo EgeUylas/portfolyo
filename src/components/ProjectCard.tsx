@@ -9,6 +9,7 @@ import {
   SmartLink,
   Text,
 } from "@once-ui-system/core";
+import { useTranslations } from "@/hooks/useTranslations";
 
 interface ProjectCardProps {
   href: string;
@@ -30,6 +31,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   avatars,
   link,
 }) => {
+  const { t, mounted } = useTranslations();
+
+  // Wait for client to mount
+  if (!mounted) {
+    return null;
+  }
   return (
     <Column fillWidth gap="m">
       <Carousel
@@ -69,7 +76,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                   style={{ margin: "0", width: "fit-content" }}
                   href={href}
                 >
-                  <Text variant="body-default-s">Read case study</Text>
+                  <Text variant="body-default-s">{t('work.caseStudy')}</Text>
                 </SmartLink>
               )}
               {link && (
@@ -78,7 +85,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                   style={{ margin: "0", width: "fit-content" }}
                   href={link}
                 >
-                  <Text variant="body-default-s">View project</Text>
+                  <Text variant="body-default-s">{t('work.viewProject')}</Text>
                 </SmartLink>
               )}
             </Flex>

@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "work": "Projeler",
+    "blog": "Blog",
+    "gallery": "Galeri"
+  },
+  "home": {
+    "headline": "Modern Web Çözümleri & Yaratıcı Projeler",
+    "subline": "Ben Ege Uylaş, Bilgisayar Mühendisi ve Freelance Web Developer. Web geliştirme, yazılım mimarisi ve modern teknolojilerle kullanıcı dostu dijital deneyimler oluşturuyorum."
+  },
+  "about": {
+    "title": "Hakkımda",
+    "intro": {
+      "title": "Giriş",
+      "description": "Bilgisayar Mühendisi olarak web geliştirme ve yazılım mimarisi alanlarında çalışıyorum. Freelance web developer olarak müşterilere modern, kullanıcı dostu web çözümleri sunuyorum. React ve JavaScript ile projeler geliştirdim, C# ve Python dillerinde nesne yönelimli programlama konularında deneyim sahibiyim. Firebase gibi teknolojilerle backend tarafına ilgi duyuyorum. Takım çalışmasına yatkın, öğrenmeye açık bir yazılımcı olarak teknik becerilerimi yenilikçi projelerle geliştirmeye devam ediyorum."
+    },
+    "work": {
+      "title": "İş Deneyimi",
+      "freelance": {
+        "company": "Freelance Web Developer",
+        "role": "Full Stack Developer",
+        "timeframe": "2025 - Devam Ediyor",
+        "achievements": [
+          "10'dan fazla müşteri projesi başarıyla teslim edildi",
+          "React.js, Next.js ve TypeScript ile modern web uygulamaları geliştirme",
+          "Firebase, Node.js ile backend entegrasyonları ve API geliştirme",
+          "UI/UX odaklı, responsive kullanıcı arayüzü tasarımı",
+          "Proje yönetimi, müşteri iletişimi ve teknik danışmanlık"
+        ]
+      },
+      "karsan": {
+        "company": "Karsan Otomotiv",
+        "role": "Full Stack Developer - Stajyer",
+        "timeframe": "2025",
+        "achievements": [
+          "Full stack web uygulaması geliştirme",
+          "Frontend ve backend entegrasyonu",
+          "Modern web teknolojileri ile proje geliştirme",
+          "Takım çalışması ve agile metodolojiler"
+        ]
+      },
+      "eli": {
+        "company": "Ege Linyitleri İşletmesi Müdürlüğü (ELİ)",
+        "role": "Stajyer Yazılım Geliştirici",
+        "timeframe": "2024",
+        "achievements": [
+          "React.js kullanarak modern web uygulaması geliştirme",
+          "Firebase ile kimlik doğrulama ve veritabanı yönetimi",
+          "Responsive ve kullanıcı dostu arayüz tasarımı",
+          "UI/UX prensiplerine uygun işlevsel arayüz tasarımı",
+          "Sürüm kontrolü için Git ve GitHub kullanımı"
+        ]
+      }
+    },
+    "education": {
+      "title": "Eğitim",
+      "university": {
+        "name": "Balıkesir Üniversitesi",
+        "description": "Bilgisayar Mühendisliği (2021 - 2025)"
+      },
+      "teknokent": {
+        "name": "Teknokent Ön Kuluçka Programı",
+        "description": "Girişimcilik ve İnovasyon Eğitimi"
+      }
+    },
+    "technical": {
+      "title": "Teknik Beceriler",
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "React.js, Next.js ve TypeScript ile modern, performanslı web uygulamaları geliştiriyorum. Redux, Context API, Hooks ve component-based mimari konularında deneyimliyim. Responsive tasarım ve modern UI/UX prensipleriyle kullanıcı odaklı arayüzler oluşturuyorum."
+      },
+      "backend": {
+        "title": "Backend & Database",
+        "description": "Node.js, Firebase ve SQL veritabanları ile backend geliştirme ve API entegrasyonları yapıyorum. RESTful API tasarımı, kimlik doğrulama sistemleri ve veritabanı yönetimi konularında deneyim sahibiyim."
+      },
+      "tools": {
+        "title": "Programming Languages & Tools",
+        "description": "JavaScript, TypeScript, Python, C# ve Java dillerinde yazılım geliştirme deneyimim var. Git/GitHub ile versiyon kontrolü, modern development araçları ve agile metodolojiler konusunda pratik bilgiye sahibim."
+      }
+    },
+    "location": "Balıkesir, Türkiye"
+  },
+  "work": {
+    "title": "Projeler",
+    "relatedProjects": "İlgili Projeler",
+    "viewProject": "Projeyi görüntüle",
+    "caseStudy": "Detayları gör"
+  },
+  "footer": {
+    "buildWith": "Build your portfolio with"
+  }
+}

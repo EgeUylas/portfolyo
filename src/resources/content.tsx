@@ -2,18 +2,18 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Ege",
+  lastName: "Uylaş",
+  name: `Ege Uylaş`,
+  role: "Web Developer & Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "egeuylas19013@gmail.com",
+  location: "Europe/Istanbul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Turkish", "English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: <>My weekly newsletter about creativity and engineering</>,
 };
@@ -24,20 +24,25 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/EgeUylas",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/ege-uylaş-682030273",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/egeeuylas?igsh=bm5iZ3NuaXA3dDBl",
   },
   {
-    name: "Email",
+    name: "0546 633 23 04",
+    icon: "phone",
+    link: "tel:+905466332304",
+  },
+  {
+    name: "egeuylas19013@gmail.com",
     icon: "email",
     link: `mailto:${person.email}`,
   },
@@ -49,101 +54,124 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Modern Web Çözümleri & Yaratıcı Projeler</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Featured</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
-          Featured work
+          Latest work
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/saatuzay",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Ben Ege Uylaş, Bilgisayar Mühendisi ve Freelance Web Developer.
+      Web geliştirme, yazılım mimarisi ve modern teknolojilerle kullanıcı dostu dijital deneyimler oluşturuyorum.
     </>
   ),
 };
 
 const about: About = {
   path: "/about",
-  label: "About",
-  title: `About – ${person.name}`,
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  label: "Hakkımda",
+  title: `Hakkımda – ${person.name}`,
+  description: `${person.name} - ${person.role}`,
   tableOfContent: {
-    display: true,
+    display: false,
     subItems: false,
   },
   avatar: {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Giriş",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Bilgisayar Mühendisi olarak web geliştirme ve yazılım mimarisi alanlarında çalışıyorum.
+        Freelance web developer olarak müşterilere modern, kullanıcı dostu web çözümleri sunuyorum.
+        React ve JavaScript ile projeler geliştirdim, C# ve Python dillerinde nesne yönelimli programlama
+        konularında deneyim sahibiyim. Firebase gibi teknolojilerle backend tarafına ilgi duyuyorum.
+        Takım çalışmasına yatkın, öğrenmeye açık bir yazılımcı olarak teknik becerilerimi yenilikçi projelerle
+        geliştirmeye devam ediyorum.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "İş Deneyimi",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Freelance Web Developer",
+        timeframe: "2025 - Devam Ediyor",
+        role: "Full Stack Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            10'dan fazla müşteri projesi başarıyla teslim edildi
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            React.js, Next.js ve TypeScript ile modern web uygulamaları geliştirme
+          </>,
+          <>
+            Firebase, Node.js ile backend entegrasyonları ve API geliştirme
+          </>,
+          <>
+            UI/UX odaklı, responsive kullanıcı arayüzü tasarımı
+          </>,
+          <>
+            Proje yönetimi, müşteri iletişimi ve teknik danışmanlık
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Karsan Otomotiv",
+        timeframe: "2025",
+        role: "Full Stack Developer - Stajyer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Full stack web uygulaması geliştirme
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Frontend ve backend entegrasyonu
+          </>,
+          <>
+            Modern web teknolojileri ile proje geliştirme
+          </>,
+          <>
+            Takım çalışması ve agile metodolojiler
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Ege Linyitleri İşletmesi Müdürlüğü (ELİ)",
+        timeframe: "2024",
+        role: "Stajyer Yazılım Geliştirici",
+        achievements: [
+          <>
+            React.js kullanarak modern web uygulaması geliştirme
+          </>,
+          <>
+            Firebase ile kimlik doğrulama ve veritabanı yönetimi
+          </>,
+          <>
+            Responsive ve kullanıcı dostu arayüz tasarımı
+          </>,
+          <>
+            UI/UX prensiplerine uygun işlevsel arayüz tasarımı
+          </>,
+          <>
+            Sürüm kontrolü için Git ve GitHub kullanımı
           </>,
         ],
         images: [],
@@ -152,78 +180,85 @@ const about: About = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Eğitim",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Balıkesir Üniversitesi",
+        description: <>Bilgisayar Mühendisliği (2021 - 2025)</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Balıkesir Teknokent Ön Kuluçka Mezunu",
+        description: <>2025</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Teknik Beceriler",
     skills: [
       {
-        title: "Figma",
+        title: "Frontend Development",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>React.js, Next.js ve TypeScript ile modern, performanslı web uygulamaları geliştiriyorum. Redux, Context API, Hooks ve component-based mimari konularında deneyimliyim. Responsive tasarım ve modern UI/UX prensipleriyle kullanıcı odaklı arayüzler oluşturuyorum.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "React",
+            icon: "react",
           },
           {
             name: "Next.js",
             icon: "nextjs",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "TypeScript",
+            icon: "typescript",
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "JavaScript",
+            icon: "javascript",
           },
         ],
-      },  
+        images: [],
+      },
+      {
+        title: "Backend & Database",
+        description: (
+          <>Node.js, Firebase ve SQL veritabanları ile backend geliştirme ve API entegrasyonları yapıyorum. RESTful API tasarımı, kimlik doğrulama sistemleri ve veritabanı yönetimi konularında deneyim sahibiyim.</>
+        ),
+        tags: [
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "Firebase",
+            icon: "firebase",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Programming Languages & Tools",
+        description: (
+          <>JavaScript, TypeScript, Python, C# ve Java dillerinde yazılım geliştirme deneyimim var. Git/GitHub ile versiyon kontrolü, modern development araçları ve agile metodolojiler konusunda pratik bilgiye sahibim.</>
+        ),
+        tags: [
+          {
+            name: "Python",
+            icon: "python",
+          },
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "Git",
+            icon: "github",
+          },
+        ],
+        images: [],
+      },
     ],
   },
 };
@@ -231,26 +266,26 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
+  title: "Blog Yazılarım",
+  description: `${person.name} tarafından yazılan blog yazıları`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
 
 const work: Work = {
   path: "/work",
-  label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  label: "Projeler",
+  title: `Projeler – ${person.name}`,
+  description: `${person.name} tarafından geliştirilen web ve yazılım projeleri`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
 const gallery: Gallery = {
   path: "/gallery",
-  label: "Gallery",
-  title: `Photo gallery – ${person.name}`,
-  description: `A photo collection by ${person.name}`,
+  label: "Galeri",
+  title: `Fotoğraf Galerisi – ${person.name}`,
+  description: `${person.name} fotoğraf koleksiyonu`,
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
