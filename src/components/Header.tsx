@@ -112,6 +112,25 @@ export const Header = () => {
                   </Row>
                 </>
               )}
+              {routes["/products"] && (
+                <>
+                  <Row s={{ hide: true }}>
+                    <ToggleButton
+                      prefixIcon="document"
+                      href="/products"
+                      label={t('nav.products')}
+                      selected={pathname.startsWith("/products")}
+                    />
+                  </Row>
+                  <Row hide s={{ hide: false }}>
+                    <ToggleButton
+                      prefixIcon="book"
+                      href="/products"
+                      selected={pathname.startsWith("/products")}
+                    />
+                  </Row>
+                </>
+              )}
               {routes["/work"] && (
                 <>
                   <Row s={{ hide: true }}>
